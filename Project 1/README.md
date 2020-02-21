@@ -13,7 +13,7 @@ This project introduces simple UIKit components in the Swift environment. The th
 
 ## Demo
 
-[![Alt text](https://img.youtube.com/vi/https://www.youtube.com/watch?v=pLq253iSoHs/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=pLq253iSoHs)
+[![Alt text](https://www.youtube.com/watch?v=pLq253iSoHs/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=pLq253iSoHs)
 
 ## Acknowledgements
 
