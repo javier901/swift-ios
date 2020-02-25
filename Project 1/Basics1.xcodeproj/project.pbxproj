@@ -22,6 +22,7 @@
 		56A11E5223FFFF7000B7B1FA /* Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A11E5123FFFF7000B7B1FA /* Park.jpg */; };
 		56A11E5423FFFFD000B7B1FA /* History.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A11E5323FFFFD000B7B1FA /* History.jpg */; };
 		56DB39FE240560A2008B5DF0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB39FD240560A2008B5DF0 /* MapViewController.swift */; };
+		56DB3A0224057784008B5DF0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB3A0124057784008B5DF0 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		56A11E5123FFFF7000B7B1FA /* Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park.jpg; sourceTree = "<group>"; };
 		56A11E5323FFFFD000B7B1FA /* History.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = History.jpg; path = ../../../../../../Downloads/History.jpg; sourceTree = "<group>"; };
 		56DB39FD240560A2008B5DF0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		56DB3A0124057784008B5DF0 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				56A10B7423FFDB3000B7B1FA /* AppDelegate.swift */,
 				56A10B7623FFDB3000B7B1FA /* FirstViewController.swift */,
 				56A10B7A23FFDB3000B7B1FA /* Main.storyboard */,
+				56DB3A0124057784008B5DF0 /* RoundButton.swift */,
 				56DB39FD240560A2008B5DF0 /* MapViewController.swift */,
 				56A10B8823FFDE1500B7B1FA /* TableViewController.swift */,
 				56A10B8A23FFDE9700B7B1FA /* SecondViewController.swift */,
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DB3A0224057784008B5DF0 /* RoundButton.swift in Sources */,
 				56A10B8B23FFDE9700B7B1FA /* SecondViewController.swift in Sources */,
 				56A10B7523FFDB3000B7B1FA /* AppDelegate.swift in Sources */,
 				56A10B8923FFDE1500B7B1FA /* TableViewController.swift in Sources */,
