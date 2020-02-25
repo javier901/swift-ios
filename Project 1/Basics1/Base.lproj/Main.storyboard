@@ -241,6 +241,15 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KzS-RZ-WAI">
                                 <rect key="frame" x="0.0" y="43" width="375" height="575"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-CL-XsK">
+                                <rect key="frame" x="329" y="502" width="30" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="zoomIn:" destination="GbT-0A-vaP" eventType="touchUpInside" id="0fH-dw-WgH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -254,6 +263,7 @@
                     <tabBarItem key="tabBarItem" title="Maps" image="second" id="6kB-fM-f9c"/>
                     <connections>
                         <outlet property="map" destination="KzS-RZ-WAI" id="mGJ-G6-oek"/>
+                        <outlet property="zoomInButton" destination="5vA-CL-XsK" id="xPb-Jn-nJ4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BT5-ai-vFs" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -12,8 +12,9 @@ import CoreLocation
 
 class MapViewController: UIViewController {
 
+    @IBOutlet weak var zoomInButton: UIButton!
     @IBOutlet weak var map: MKMapView!
-    
+//    @IBOutlet weak var zoomIn: UIButton!
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -62,24 +63,27 @@ class MapViewController: UIViewController {
         map.addAnnotations(allLocations as [MKAnnotation])
         map.showAnnotations(map.annotations, animated: true)
         
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        // Set user current location
         
         if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
             map.showsUserLocation = true
         } else {
             locationManager.requestWhenInUseAuthorization()
+            
         }
+        
     }
-    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last{
             let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             self.map.setRegion(region, animated: true)
         }
+    }
+    
+    @IBAction func zoomIn(_ sender: Any) {
+        let region = MKCoordinateRegion(center: self.map.region.center, span: MKCoordinateSpan(latitudeDelta: map.region.span.latitudeDelta*0.7, longitudeDelta: map.region.span.longitudeDelta*0.7))
+        map.setRegion(region, animated: true)
     }
 
 }
