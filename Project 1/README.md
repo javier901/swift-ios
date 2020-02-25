@@ -15,6 +15,8 @@ This project introduces simple UIKit components in the Swift environment. The th
 
 [![Alt text](https://img.youtube.com/vi/https://www.youtube.com/watch?v=pLq253iSoHs/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=pLq253iSoHs)
 
+<!-- https://stackoverflow.com/questions/11804820/embed-a-youtube-video  -->
+
 ## Acknowledgements
 
 The following tutorials & online resources helped me put together the concepts required to build this app.
