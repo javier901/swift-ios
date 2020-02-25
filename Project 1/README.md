@@ -2,17 +2,21 @@
 
 This project introduces simple UIKit components in the Swift environment. The theme of the application is presentation of the city of Lyon, France.
 
-## Topics covered
+The app begins with a tab bar controller, offering the user 3 bar view choices. The first scene is a short introduction of Lyon and demonstrates a scroll feature. The next tab bar item takes the user to a table view of common favourite places in the city, where each table cell is connected to the related activity in another scene. The third tab offers a map view of the city, with annotations for places, current user location information and zoom buttons for scrolling the map. The app has been tested in Xcode 10.1, Swift 4.2 and with iPhone 6. 
+
+## Swift Topics covered
 - UIViewController
 - UITabBarViewController
 - UITableViewController  
 - UIScrollView
-- Setting app icon image
-- Hyperlinking of buttons
-- Passing data via Segue
-- MapKit 
+- MapKit
 - View user location
 - Add annotations in the map view
+- Zoom buttons for map view
+- Passing data between controllers via Segue
+- Custom app icon image
+- Hyperlinking of buttons
+- Custom button shapes
 
 ## Demo
 
@@ -22,8 +26,5 @@ This project introduces simple UIKit components in the Swift environment. The th
 
 ## Acknowledgements
 
-The following tutorials & online resources helped me put together the concepts required to build this app.
-
-- Tutorials on [table view](https://www.youtube.com/watch?v=A6Wl8ySrOZI), [tab bar](https://www.youtube.com/watch?v=nFw1yVhG4r8) & [scroll view](https://www.youtube.com/watch?v=LhhW3xqhCzg) by [The Swift Guy](https://www.youtube.com/channel/UC-d1NWv5IWtIkfH47ux4dWA)
-<!-- - Link a button to a site [SO query](https://stackoverflow.com/questions/39392939/how-to-add-a-hyperlink-button-on-ios-swift) -->
-- Project theme ideas from [soapyigu](https://github.com/soapyigu/Swift-30-Projects)
+Information and images about Lyon has been taken from [wikipedia](https://en.wikipedia.org/wiki/Lyon) &  
+a popular [blogpost](www.thecrazytourist.com/15-best-things-lyon-france/)
