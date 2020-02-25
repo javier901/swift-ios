@@ -29,5 +29,4 @@ The app begins with a tab bar controller, offering the user 3 bar view choices. 
 
 ## Acknowledgements
 
-Information about Lyon has been taken from [wikipedia](https://en.wikipedia.org/wiki/Lyon) and  
-a popular [blogpost](www.thecrazytourist.com/15-best-things-lyon-france/)
+Information about Lyon has been taken from a popular [blogpost](www.thecrazytourist.com/15-best-things-lyon-france/), [wikipedia](https://en.wikipedia.org/wiki/Lyon)
