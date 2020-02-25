@@ -10,10 +10,13 @@ This project introduces simple UIKit components in the Swift environment. The th
 - Setting app icon image
 - Hyperlinking of buttons
 - Passing data via Segue
+- MapKit 
+- View user location
+- Add annotations in the map view
 
 ## Demo
 
-[![Alt text](https://img.youtube.com/vi/https://www.youtube.com/watch?v=pLq253iSoHs/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=pLq253iSoHs)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/pLq253iSoHs/0.jpg)](http://www.youtube.com/watch?v=pLq253iSoHs "Video Title")
 
 <!-- https://stackoverflow.com/questions/11804820/embed-a-youtube-video  -->
 
