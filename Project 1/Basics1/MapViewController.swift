@@ -14,7 +14,8 @@ class MapViewController: UIViewController {
 
     @IBOutlet weak var zoomInButton: UIButton!
     @IBOutlet weak var map: MKMapView!
-//    @IBOutlet weak var zoomIn: UIButton!
+    @IBOutlet weak var zommOutButton: UIButton!
+    
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -86,4 +87,29 @@ class MapViewController: UIViewController {
         map.setRegion(region, animated: true)
     }
 
+    
+    @IBAction func zoomOut(_ sender: Any) {
+        let zoom = getZoom() // to get the value of zoom of your map.
+        if zoom > 3.5{ // ** Imposed condition that avoid the mapview to zoom more then 3.5 to avoid crash.**
+            
+            let region = MKCoordinateRegion(center: self.map.region.center, span: MKCoordinateSpan(latitudeDelta: map.region.span.latitudeDelta/0.7, longitudeDelta: map.region.span.longitudeDelta/0.7))
+            map.setRegion(region, animated: true)
+        }
+    }
+    
+    func getZoom() -> Double {
+        
+        var angleCamera = self.map.camera.heading
+        if angleCamera > 270 {
+            angleCamera = 360 - angleCamera
+        } else if angleCamera > 90 {
+            angleCamera = fabs(angleCamera - 180)
+        }
+        let angleRad = Double.pi * angleCamera / 180
+        let width = Double(self.view.frame.size.width)
+        let height = Double(self.view.frame.size.height)
+        let heightOffset : Double = 20
+        let spanStraight = width * self.map.region.span.longitudeDelta / (width * cos(angleRad) + (height - heightOffset) * sin(angleRad))
+        return log2(360 * ((width / 256) / spanStraight)) + 1;
+    }
 }

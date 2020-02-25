@@ -241,20 +241,31 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KzS-RZ-WAI">
                                 <rect key="frame" x="0.0" y="43" width="375" height="575"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-CL-XsK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-CL-XsK">
                                 <rect key="frame" x="329" y="502" width="30" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="zoomIn:" destination="GbT-0A-vaP" eventType="touchUpInside" id="0fH-dw-WgH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9r-NP-mas">
+                                <rect key="frame" x="329" y="565" width="30" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="zoomOut:" destination="GbT-0A-vaP" eventType="touchUpInside" id="UmZ-81-uia"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="KzS-RZ-WAI" firstAttribute="bottom" secondItem="ZwN-T1-yKz" secondAttribute="bottom" id="LWf-gL-VwQ"/>
+                            <constraint firstItem="V9r-NP-mas" firstAttribute="top" secondItem="5vA-CL-XsK" secondAttribute="bottom" constant="15" id="Mvv-y5-3Tu"/>
                             <constraint firstItem="KzS-RZ-WAI" firstAttribute="trailing" secondItem="ZwN-T1-yKz" secondAttribute="trailing" id="P03-4q-cbj"/>
+                            <constraint firstItem="5vA-CL-XsK" firstAttribute="trailing" secondItem="w8M-b3-ay5" secondAttribute="trailingMargin" id="dQR-4j-gs9"/>
+                            <constraint firstItem="5vA-CL-XsK" firstAttribute="top" secondItem="ZwN-T1-yKz" secondAttribute="top" constant="482" id="ijc-Eb-gQR"/>
+                            <constraint firstItem="5vA-CL-XsK" firstAttribute="leading" secondItem="V9r-NP-mas" secondAttribute="leading" id="sc1-qj-evQ"/>
                             <constraint firstItem="KzS-RZ-WAI" firstAttribute="top" secondItem="ZwN-T1-yKz" secondAttribute="top" constant="23" id="vUP-aK-BKN"/>
                             <constraint firstItem="KzS-RZ-WAI" firstAttribute="leading" secondItem="ZwN-T1-yKz" secondAttribute="leading" id="zxb-5a-Jq6"/>
                         </constraints>
@@ -263,6 +274,7 @@
                     <tabBarItem key="tabBarItem" title="Maps" image="second" id="6kB-fM-f9c"/>
                     <connections>
                         <outlet property="map" destination="KzS-RZ-WAI" id="mGJ-G6-oek"/>
+                        <outlet property="zommOutButton" destination="V9r-NP-mas" id="juS-v9-pzk"/>
                         <outlet property="zoomInButton" destination="5vA-CL-XsK" id="xPb-Jn-nJ4"/>
                     </connections>
                 </viewController>
