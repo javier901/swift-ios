@@ -10,6 +10,9 @@ This project introduces simple UIKit components in the Swift environment. The th
 - Setting app icon image
 - Hyperlinking of buttons
 - Passing data via Segue
+- MapKit 
+- View user location
+- Add annotations in the map view
 
 ## Demo
 
