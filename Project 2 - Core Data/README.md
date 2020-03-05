@@ -9,7 +9,7 @@ This is a Swift app that demonstrates the implementation of [Core Data](https://
 
 ## Demo
 
-![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202/Thumbnail.png)
+![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202%20-%20Core%20Data/Thumbnail.png)
 
 <!-- https://stackoverflow.com/questions/11804820/embed-a-youtube-video  -->
 
