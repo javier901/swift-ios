@@ -9,7 +9,7 @@ This is a Swift app that demonstrates the implementation of [Core Data](https://
 
 ## Demo
 
-![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202/Thumbnail1.png) ![IMAGE ALT TEXT] (https://github.community/t5/How-to-use-Git-and-GitHub/How-do-you-put-Images-on-the-README-md-file/td-p/3203)
+![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202/Thumbnail1.png) ![IMAGE ALT TEXT](https://github.community/t5/How-to-use-Git-and-GitHub/How-do-you-put-Images-on-the-README-md-file/td-p/3203)
 
 <!-- https://stackoverflow.com/questions/11804820/embed-a-youtube-video  -->
 
