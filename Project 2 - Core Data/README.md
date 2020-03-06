@@ -6,12 +6,13 @@ This is a Swift app that demonstrates the implementation of [Core Data](https://
 - Use of Core data to save app user information
 - Table view to retrieve and display saved Core Data contents
 - Customisation of table cells (by subclassing the cell type)
+- UIAlert
 
 ## Demo
 
 Please click on the images below to view a video demo of the application
 
-[![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202%20-%20Core%20Data/Thumbnail.png)](https://www.youtube.com/watch?v=eEG0vADTEeI)
+[![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202%20-%20Core%20Data/Thumbnail.png)](https://www.youtube.com/watch?v=B2LJJvNmfbY)
 
 <!-- https://stackoverflow.com/questions/11804820/embed-a-youtube-video  -->
 
