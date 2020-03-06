@@ -6,7 +6,7 @@ This is a Swift app that demonstrates the implementation of [Core Data](https://
 - Use of Core data to save app user information
 - Table view to retrieve and display saved Core Data contents
 - Customisation of table cells (by subclassing the cell type)
-- UIAlert
+- UIAlertController
 
 ## Demo
 
