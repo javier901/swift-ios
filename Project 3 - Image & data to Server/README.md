@@ -3,7 +3,7 @@
 This is a Swift app that demonstrates sending of data from the application to a web server. It is a personal contact list app, where the user can make new entries with details about one's telephone contacts.
 
 ## Details of the application
-The user can send 2 kinds of data : Name & Phone numbers (as String/text) and as image (binary information). The uploaded image is saved in a folder located on the server. The database saves contact name, phone number and the corresponding image file path location.
+The user can send 2 kinds of data : Name & Phone numbers (as String/text) and contact images (binary data). The uploaded image is saved in a folder on the server. The database saves contact name, phone number and the corresponding image file path location.
 
 
 ## Topics covered
