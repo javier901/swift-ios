@@ -10,7 +10,7 @@ The user can send 2 kinds of data : Name & Phone numbers (as String/text) and co
 ## Topics covered
 - Making HTTP request in Swift with [URLRequest](https://developer.apple.com/documentation/foundation/urlrequest)
 - Sending Swift data as JSON objects [JSONSerialization](https://developer.apple.com/documentation/foundation/jsonserialization)
-- Server side database handling & storage using PHP (code given in uploadContact.php file above)
+- Server side database handling & storage using PHP (code below)
 
 ## Database view
 
