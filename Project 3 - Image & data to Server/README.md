@@ -16,7 +16,7 @@ The user can send 2 kinds of data : Name & Phone numbers (as String/text) and co
 
 ![db](https://github.com/d-misra/Swift-Apps/blob/master/Project%203%20-%20Image%20%26%20data%20to%20Server/Db.png)
 
-## PHP
+## Server side code in PHP
 ```
 <?php
 
