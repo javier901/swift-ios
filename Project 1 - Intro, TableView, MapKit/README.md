@@ -23,6 +23,8 @@ The app begins with a tab bar controller, offering the user 3 bar view choices. 
 
 ## Demo
 
+Please click on the image below to view a video demo of the application
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/WHjDtc8JiJg/0.jpg)](http://www.youtube.com/watch?v=WHjDtc8JiJg "Video Title")
 <!-- https://stackoverflow.com/questions/11804820/embed-a-youtube-video  -->
 
