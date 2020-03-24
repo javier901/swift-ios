@@ -76,3 +76,4 @@ session_start();
 
 - PHP [documentation](https://www.php.net/)
 - Insert data in mysql database using PHP [link](https://www.w3schools.com/php/php_mysql_insert.asp)
+- Excellent [article](https://matteomanferdini.com/network-requests-rest-apis-ios-swift/) on handling network requests in iOS Swift
