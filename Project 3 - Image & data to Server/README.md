@@ -72,9 +72,12 @@ session_start();
 }
 ```
 
+Note: Changes need to be made in the `info.plist` file since the connection is not secure, and by default iPhone apps does not allow to make requests to http URLs. 
+
 ## Help
 
 - PHP [documentation](https://www.php.net/)
 - Insert data in mysql database using PHP [link](https://www.w3schools.com/php/php_mysql_insert.asp)
 - Excellent [article](https://matteomanferdini.com/network-requests-rest-apis-ios-swift/) on handling network requests in iOS Swift
 - Installation [tutorial](https://coolestguidesontheplanet.com/get-apache-mysql-php-and-phpmyadmin-working-on-macos-sierra/) to setup Apache, MySQL, PHP and phpmyadmin on MacOS High Sierra
+- Allowing app to connect to http URLs [guide](https://www.simplifiedios.net/swift-php-mysql-tutorial/#Making_changes_in_Infoplist_file)
