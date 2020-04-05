@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdD-9h-K7I">
+                                <rect key="frame" x="59" y="527" width="254" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="WxT-mU-dRl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.1818560105" blue="0.1664793765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KXe-Hh-OBF">
+                                <rect key="frame" x="59" y="118" width="254" height="242"/>
+                                <color key="backgroundColor" red="0.91394932250000005" green="1" blue="0.83026415480000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQg-VF-FXn">
+                                <rect key="frame" x="91" y="413" width="192" height="56"/>
+                                <color key="backgroundColor" red="0.54319739209999995" green="1" blue="0.35190534429999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="ZfZ-hI-Cj9"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Select food photo"/>
+                                <connections>
+                                    <action selector="pickImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKp-AR-dFh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KXe-Hh-OBF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="98" id="8gN-pf-KXN"/>
+                            <constraint firstItem="fQg-VF-FXn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TQw-sR-dXt"/>
+                            <constraint firstItem="KXe-Hh-OBF" firstAttribute="trailing" secondItem="IdD-9h-K7I" secondAttribute="trailing" id="W4j-es-82t"/>
+                            <constraint firstItem="KXe-Hh-OBF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="h8A-wd-xZE"/>
+                            <constraint firstItem="KXe-Hh-OBF" firstAttribute="leading" secondItem="IdD-9h-K7I" secondAttribute="leading" id="kXr-dr-W4y"/>
+                            <constraint firstItem="fQg-VF-FXn" firstAttribute="top" secondItem="KXe-Hh-OBF" secondAttribute="bottom" constant="53" id="liB-iN-W2J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IdD-9h-K7I" secondAttribute="bottom" constant="69" id="p9Y-7Q-goZ"/>
+                            <constraint firstItem="IdD-9h-K7I" firstAttribute="top" secondItem="fQg-VF-FXn" secondAttribute="bottom" constant="58" id="spp-ME-5hw"/>
+                            <constraint firstItem="fQg-VF-FXn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="tE1-Rx-y7f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KXe-Hh-OBF" secondAttribute="trailing" constant="62" id="ykT-dH-q5s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="classificationLabel" destination="IdD-9h-K7I" id="621-1e-ZXk"/>
+                        <outlet property="myImg" destination="KXe-Hh-OBF" id="nCn-dQ-OKO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
