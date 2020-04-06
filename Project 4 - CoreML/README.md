@@ -38,4 +38,4 @@ Due to size limit issues, the data is not uploaded in this repository. The 2 pyt
 ### Tutorials
 - Introductory [guide](https://medium.com/kinandcartacreated/intro-to-machine-learning-on-ios-with-createml-turicreate-part-2-f30f94fe8172) for TuriCreate
 - Transfer learning tutorials [here](http://cs231n.github.io/transfer-learning/) and [here](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
-- coreml with swift tutorials [here](https://dev.to/mehmetkoca/image-recognition-with-coreml) and [here](https://www.raywenderlich.com/577-core-ml-and-vision-machine-learning-in-ios-11-tutorial).
+- Coreml with swift tutorials [here](https://dev.to/mehmetkoca/image-recognition-with-coreml) and [here](https://www.raywenderlich.com/577-core-ml-and-vision-machine-learning-in-ios-11-tutorial).
