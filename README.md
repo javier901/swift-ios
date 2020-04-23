@@ -3,7 +3,7 @@
 This repository contains simple iOS projects created with Xcode, in the Swift environment. 
 
 ## Table of contents
-- [Project 1 : Introduces basic UIKit components (UIViewController, UITabBarViewController, UIScrollView, MapKit, hyperlinks, segue)](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%201%20-%20Intro%2C%20TableView%2C%20MapKit)
+- [Project 1 : Basic UIKit components (UIViewController, UITabBarViewController, UIScrollView, MapKit, hyperlinks, segue)](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%201%20-%20Intro%2C%20TableView%2C%20MapKit)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/WHjDtc8JiJg/0.jpg)](http://www.youtube.com/watch?v=WHjDtc8JiJg "Video Title")
 
