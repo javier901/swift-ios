@@ -3,21 +3,21 @@
 This repository contains simple iOS projects created with Xcode, in the Swift environment. 
 
 ## Table of contents
-- [Project 1](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%201%20-%20Intro%2C%20TableView%2C%20MapKit): Introduces simple UIKit components (UIViewController, UITabBarViewController, UITableViewController, UIScrollView, MapKit, hyperlinks, segue)
+- [Project 1 : Introduces basic UIKit components (UIViewController, UITabBarViewController, UIScrollView, MapKit, hyperlinks, segue)](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%201%20-%20Intro%2C%20TableView%2C%20MapKit)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/WHjDtc8JiJg/0.jpg)](http://www.youtube.com/watch?v=WHjDtc8JiJg "Video Title")
 
-- [Project 2](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%202%20-%20Core%20Data): Demonstration of Core Data, UITableViewController
+- [Project 2: Demonstration of Core Data, UITableViewController](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%202%20-%20Core%20Data)
 
 [![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202%20-%20Core%20Data/Thumbnail.png)](https://www.youtube.com/watch?v=B2LJJvNmfbY)
 
-- [Project 3](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%203%20-%20Image%20%26%20data%20to%20Server): HTTP requests to server for data storage
+- [Project 3 : Sending HTTP requests to server for storing data taken via app](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%203%20-%20Image%20%26%20data%20to%20Server): 
 
 ![app](https://github.com/d-misra/Swift-Apps/blob/master/Project%203%20-%20Image%20%26%20data%20to%20Server/Thumbnail.png)
 
-- [Project 4](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%204%20-%20CoreML): Image recognition for food detection using Apple's machine learning framework (Core ML)
+- [Project 4 : Image recognition for food detection using Apple's machine learning framework (Core ML)](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%204%20-%20CoreML)
 
-https://github.com/d-misra/Swift-Apps/blob/master/Project%204%20-%20CoreML/Demo.png)
+![demo](https://github.com/d-misra/Swift-Apps/blob/master/Project%204%20-%20CoreML/Demo.png)
 
 
 ## Acknowledgements
