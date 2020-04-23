@@ -11,7 +11,7 @@ This repository contains simple iOS projects created with Xcode, in the Swift en
 
 [![IMAGE ALT TEXT](https://github.com/d-misra/Swift-Apps/blob/master/Project%202%20-%20Core%20Data/Thumbnail.png)](https://www.youtube.com/watch?v=B2LJJvNmfbY)
 
-- [Project 3 : Sending HTTP requests to server for storing data taken via app](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%203%20-%20Image%20%26%20data%20to%20Server): 
+- [Project 3 : Sending HTTP requests to server for storing data ](https://github.com/d-misra/Swift-iOS-apps/tree/master/Project%203%20-%20Image%20%26%20data%20to%20Server)
 
 ![app](https://github.com/d-misra/Swift-Apps/blob/master/Project%203%20-%20Image%20%26%20data%20to%20Server/Thumbnail.png)
 
