@@ -28,3 +28,6 @@ The following tutorials & online resources helped me very much to put together t
 - Project theme ideas from [soapyigu](https://github.com/soapyigu/Swift-30-Projects)
 - iOS & Swift tutorials from [raywenderlich.com](https://www.raywenderlich.com/ios)
 - Swift programming [guide](https://docs.swift.org/swift-book/)
+
+## Disclaimer
+I do not own the copyrights of the images used for demonstrating the applications. They have been taken from Google.
