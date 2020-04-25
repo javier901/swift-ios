@@ -30,4 +30,4 @@ The following tutorials & online resources helped me very much to put together t
 - Swift programming [guide](https://docs.swift.org/swift-book/)
 
 ## Disclaimer
-I do not own the copyrights of the images used for demonstrating the applications. They have been taken from Google.
+I do not own the copyrights of the images used for testing the applications (for example book covers, food pictures etc). They have been taken from Google.
