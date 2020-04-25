@@ -1,7 +1,7 @@
 ## Food Detector App
 This is a Swift app that demonstrates the use of Apple's machine learning vision framework with [CoreML](https://developer.apple.com/documentation/coreml).
 
-Using Turi Create, an image classification model is trained (transfer-learning) on food images of different types. This trained [mlmodel](https://developer.apple.com/documentation/coreml/mlmodel) is then used in the Swift iOS project for recognising pictures of food, taken with an iPhone.
+Using Turi Create, an image classification model is trained (transfer-learning by fine-tuning of Squeezenet) on food images of different types. This trained [mlmodel](https://developer.apple.com/documentation/coreml/mlmodel) is then used in the Swift iOS project for recognising pictures of food, taken with an iPhone.
 
 ### Swift topics covered
 - [Turi Create](https://github.com/apple/turicreate) to generate a coreml model
